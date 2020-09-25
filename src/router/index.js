@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import SignUp from '../views/Signup.vue';
+import InsurancePlan from '../views/InsurancePlan.vue';
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,10 @@ const routes = [
       name: 'signup',
       component: SignUp,
       meta: { title: 'Sign up' }
+  }, {
+      path: '/new/insurance-plan',
+      name: 'insurancePlan',
+      component: InsurancePlan
   }
 ]
 

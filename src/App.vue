@@ -3,7 +3,8 @@
         <nav>
             <li><router-link :to = "{ name: 'home' }">Insura Block</router-link></li>
             <li><router-link :to = "{ name: 'signup', params: {type: 'medical-professional'} }">Medical Professionals</router-link></li>
-            <li><router-link :to = "{ name: 'signup', params: {type: 'patient'} }">Patients</router-link></li>
+            <!-- <li><router-link :to = "{ name: 'signup', params: {type: 'patient'} }">Patients</router-link></li> -->
+            <li><router-link :to = "{ name: 'insurancePlan' }">Patients</router-link></li>
         </nav>
 
         <router-view/>
